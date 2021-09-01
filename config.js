@@ -44,7 +44,7 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [{ text: 'SplashKit', link: 'http://splashkit.io' }, { text: 'SplashKit Discussions', link: 'https://github.com/splashkit/splashkit-core/discussions' }],
     frontline: false,
     ignoreIndex: true,
     title:
@@ -58,7 +58,7 @@ const config = {
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
-    enabled: false, // disabling this will also remove the existing service worker.
+    enabled: true, // disabling this will also remove the existing service worker.
     manifest: {
       name: 'Gatsby Gitbook Starter',
       short_name: 'GitbookStarter',
